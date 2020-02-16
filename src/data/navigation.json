@@ -1,0 +1,22 @@
+[
+  {
+    "title": "About",
+    "emoji": "👨‍💻",
+    "route": "/about"
+  },
+  {
+    "title": "Projects",
+    "emoji": "💼",
+    "route": "/projects"
+  },
+  {
+    "title": "Blog",
+    "emoji": "✍️",
+    "route": "/blog"
+  },
+  {
+    "title": "Uses",
+    "emoji": "🛠",
+    "route": "/uses"
+  }
+]
