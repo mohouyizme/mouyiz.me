@@ -1,13 +1,10 @@
 import React from 'react';
 import { ThemeProvider, createGlobalStyle } from 'styled-components';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Redirect
-} from 'react-router-dom';
+import { Router, Switch, Route, Redirect } from 'react-router-dom';
+import { createBrowserHistory } from 'history';
 
 import useTheme from './utils/useTheme';
+import initializeGA from './utils/initializeGA';
 
 import Home from './pages/Home';
 import About from './pages/About';
@@ -20,6 +17,10 @@ import Box from './components/helpers/Box';
 import Navbar from './components/ui/Navbar';
 import SideMenu from './components/ui/SideMenu';
 import Footer from './components/ui/Footer';
+
+const history = createBrowserHistory();
+
+initializeGA(history);
 
 const GlobalStyle = createGlobalStyle`
   html {
@@ -65,11 +66,10 @@ const GlobalStyle = createGlobalStyle`
 
 function App() {
   const theme = useTheme();
-
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <Router>
+      <Router history={history}>
         <Box m="auto" pt="2rem" p="0 2rem" mw="50rem">
           <Box mb="5rem">
             <Navbar />
