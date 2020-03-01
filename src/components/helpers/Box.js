@@ -13,6 +13,7 @@ const StyledBox = styled.div`
   ${({ pb }) => pb && `padding-bottom: ${pb}`};
   ${({ pl }) => pl && `padding-left: ${pl}`};
   ${({ display }) => display && `display: ${display}`};
+  ${({ position }) => position && `position: ${position}`};
   ${({ ai }) => ai && `align-items: ${ai}`};
   ${({ jc }) => jc && `justify-content: ${jc}`};
   ${({ h }) => h && `height: ${h}`};
