@@ -2,7 +2,7 @@
   {
     "title": "About",
     "emoji": "👨‍💻",
-    "route": "/about"
+    "route": "/"
   },
   {
     "title": "Projects",
@@ -18,5 +18,10 @@
     "title": "Uses",
     "emoji": "🛠",
     "route": "/uses"
+  },
+  {
+    "title": "Contact",
+    "emoji": "👋",
+    "route": "/contact"
   }
 ]

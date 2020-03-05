@@ -73,9 +73,9 @@ const Home = () => {
       </SayHi>
       <Box mt="2rem" display="flex" jc="flex-end" ai="center" mb="5rem">
         <Box>
-          <Link to="/about">
+          <Link to="/contact">
             <Button color="primary" size="medium">
-              More About Me
+              Contact Me
             </Button>
           </Link>
         </Box>

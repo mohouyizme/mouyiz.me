@@ -8,7 +8,6 @@ import useTheme from './utils/useTheme';
 import initializeGA from './utils/initializeGA';
 
 import Home from './pages/Home';
-import About from './pages/About';
 import Projects from './pages/Projects';
 import Blog from './pages/Blog';
 import Uses from './pages/Uses';
@@ -114,7 +113,6 @@ function App() {
                   <div className="page">
                     <Switch location={location}>
                       <Route path="/" exact component={Home} />
-                      <Route path="/about" exact component={About} />
                       <Route path="/projects" exact component={Projects} />
                       <Route path="/blog" exact component={Blog} />
                       <Route path="/uses" exact component={Uses} />
