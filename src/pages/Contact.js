@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <Fragment>
       <h1>Contact</h1>
-      <form name="contact" netlify>
+      <form name="contact" data-netlify="true">
         <Input
           label="Name"
           type="text"
