@@ -79,7 +79,7 @@ const Navbar = () => {
             <NavList>
               {navigation.map(({ title, emoji, route }) => (
                 <NavListItem key={title}>
-                  <NavLink to={route} exact>
+                  <NavLink to={route}>
                     <span role="img" aria-label="Emoji">
                       {emoji}
                     </span>{' '}

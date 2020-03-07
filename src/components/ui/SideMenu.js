@@ -69,7 +69,7 @@ const SideMenu = () => {
         <NavList>
           {navigation.map(({ title, emoji, route }) => (
             <NavListItem key={title}>
-              <NavLink to={route} exact onClick={toggleMenu}>
+              <NavLink to={route} onClick={toggleMenu}>
                 <span role="img" aria-label="Emoji">
                   {emoji}
                 </span>{' '}
