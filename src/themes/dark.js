@@ -1,12 +1,12 @@
 export default {
   type: 'dark',
-  background: '#301e4e',
-  backgroundSecondary: '#463366',
+  background: '#  ',
+  backgroundSecondary: '#363940',
   headline: '#ffffff',
-  paragraph: '#c9bae2',
-  highlight: '#ff6e6c',
-  buttonBackground: '#ff6e6c',
-  buttonBackgroundSecondary: '#463366',
-  buttonText: '#301e4e',
-  buttonTextSecondary: '#ffffff'
+  paragraph: '#abb2bf',
+  highlight: '#c678dd',
+  buttonBackground: '#c678dd',
+  buttonBackgroundSecondary: '#363940',
+  buttonText: '#282c34',
+  buttonTextSecondary: '#ffffff',
 };
