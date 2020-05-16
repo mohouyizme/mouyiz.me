@@ -1,6 +1,6 @@
 export default {
   type: 'dark',
-  background: '#  ',
+  background: '#282c34',
   backgroundSecondary: '#363940',
   headline: '#ffffff',
   paragraph: '#abb2bf',
